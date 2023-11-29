@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'sadagsgsagfsafsaf',
+  title: 'wfsdfsdgsdg',
   tagline: 'sdasadasfsdg are cool',
   favicon: 'img/favicon.ico',
 
@@ -89,10 +89,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'asrssafcxyv',
             items: [
               {
-                label: 'Tutorial',
+                label: 'saddadsasd',
                 to: '/docs/intro',
               },
             ],
