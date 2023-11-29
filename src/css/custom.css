@@ -58,7 +58,7 @@
 .navbar__title:hover,
 .navbar__link:hover {
   transform: scale(1.1);
-  background-color:var(--ifm-background-color-col); 
+  background-color:var(--ifm-btn-colors); 
   transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
 }
 
