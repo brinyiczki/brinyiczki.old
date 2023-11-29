@@ -6,7 +6,10 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-btn-colors: #ededed;
   --ifm-color-primary: #2e8555;
+  --ifm-background-color-col:transparent;
+  --ifm-footer-background-color: #EEEEEE;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -19,10 +22,10 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-background-color: #1e2125;
-  --ifm-background-surface-color: #121212;
-
-  --ifm-color-primary: #25c2a0;
+  --ifm-btn-colors: #101010;
+  --ifm-color-primary: rgb(43, 177, 255);
+  --ifm-background-color-col: #232323;
+  --ifm-footer-background-color: #2d2d2d;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -33,29 +36,35 @@
 }
 
 
-/*CUSTOM FONT */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-:root {
-  --ifm-font-family-base: 'Open Sans';
+/* Background color for light theme */
+.col--4 {
+  background-color: var(--ifm-background-color-col); 
 }
 
 
 
 
-
-/* Announcement Bar */
-div[class^='announcementBarContent'] {
-  background-color: var(--ifm-background-surface-color);
-  color: var(--ifm-font-color-base);
+.menu__link,
+.navbar__link,
+.navbar__title {
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
 }
 
-div[class^='announcementBarContent'] a {
-  color: var(--ifm-link-color);
-  text-decoration: inherit;
+.menu__link:hover,
+.navbar__title:hover,
+.navbar__link:hover {
+  transform: scale(1.1);
+  background-color:var(--ifm-background-color-col); 
+  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
 }
 
-div[class^='announcementBarContent'] a:hover {
-  color: var(--ifm-link-color);
-  text-decoration: underline;
+.menu__link:not(:hover),
+.navbar__title:not(:hover),
+.navbar__link:not(:hover) {
+  background-color: transparent; 
+  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
 }
