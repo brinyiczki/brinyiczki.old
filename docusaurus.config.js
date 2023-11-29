@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'brinyiczki', // Usually your GitHub org/user name.
   projectName: 'brinyiczki.github.io', // Usually your repo name.
-  deploymentBranch: "gh-pages",
+  deploymentBranch: "deployment",
   trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
