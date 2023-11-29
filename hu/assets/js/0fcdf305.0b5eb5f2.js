@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrinyiczki_github_io=self.webpackChunkbrinyiczki_github_io||[]).push([[2402],{8609:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/hu/blog/tags/facebook","allTagsPath":"/hu/blog/tags","count":1,"unlisted":false}')}}]);
