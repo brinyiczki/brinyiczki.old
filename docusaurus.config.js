@@ -59,82 +59,86 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
+  themeConfig: {
+    image: 'img/docusaurus-social-card.jpg',
+    navbar: {
+      title: 'Home',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/profile3.png',
+      },
+      items: [
+        {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'asrssafcxyv',
-            items: [
-              {
-                label: 'saddadsasd',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+         // {
+        //    to: '/blog',
+         //   label: 'Blog',
+         //   position: 'left',
+         // },
+         {
+          href: 'https://discord.com/users/666230610507071490',
+          label: 'Discord',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/brinyiczki',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+
+
+   /* footer: {
+      /* style:'', */
+    /*  links: [
+        {
+          //title: 'Roblox',
+          items: [
+            {
+              label: 'Roblox',
+              href: 'https://create.roblox.com/talent/creators/3195667595',
+            },
+          ],
+        },
+        {
+         // title: 'Discord',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/users/666230610507071490',
+            },
+          ],
+        },
+        {
+         // title: 'More',
+         
+          items: [
+            {
+              label: 'Paypal',
+              href: 'https://paypal.me/brinyiczki',
+            },
+          ],
+        },
+      ],
+      //copyright: `Copyright © ${new Date().getFullYear()} GripAll, Built with Docusaurus.`,
+     
+    },
+
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+
+    },
+         
+  },
+      */
+
+   },
 };
 
 export default config;
