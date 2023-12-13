@@ -11,6 +11,9 @@
 
 
 :root {
+
+  --ifm-color-emphasis-200: transparent;
+
   --sidebar-color: #e4e4e4;
   --ifm-color-content-inverse: #000000;
   --ifm-link-color : #ce962f;
@@ -38,6 +41,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --sidebar-color: rgb(20,20,20);
+  --ifm-color-emphasis-200: transparent;
   --ifm-button-border-color: transparent;
   --ifm-card-background-color: transparent;
 
@@ -74,9 +78,7 @@
   border: 0px solid transparent;
 }
 
-.card {
-  border: 0px solid transparent;
-}
+
 
 .menu_SIkG {
   background-color: var(--sidebar-color);
