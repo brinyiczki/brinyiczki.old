@@ -12,4 +12,4 @@ Array.from(document.querySelectorAll(".menu__link")).forEach(a => {
             ripple.parentNode.removeChild(ripple)
         }, 500)
     })
-  })
+  }) 
