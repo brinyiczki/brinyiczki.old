@@ -5,6 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
 :root {
   --ifm-btn-colors: #ededed;
   --ifm-color-primary: #2e8555;
@@ -36,13 +41,21 @@
 }
 
 
+.col--4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: var(--ifm-background-color-col); /* Background color for light theme */
+}
+
 
 /* Background color for light theme */
 .col--4 {
   background-color: var(--ifm-background-color-col); 
 }
 
-
+.menu_link {
+  line-height: 3;
+}
 
 
 .menu__link,
