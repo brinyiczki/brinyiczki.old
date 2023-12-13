@@ -75,6 +75,22 @@
   background-color: var(--sidebar-color);
 }
 
+.pagination-nav__link {
+  background-color: var(--ifm-btn-colors);
+  border-radius: 20px;
+  border: transparent;
+}
+
+.pagination-nav__link:hover {
+  background-color: var(--ifm-btn-colors);
+  border-radius: 2px;
+  transition: border-radius 0.3s ease; 
+}
+
+.pagination-nav__link:not(:hover) {
+  transition: border-radius 0.3s ease;
+}
+
 
 
 .col--4 {
