@@ -15,11 +15,12 @@
   --ifm-link-color : #ce962f;
   --ifm-btn-colors: #ededed;
   --ifm-navbar-background-color: rgb(255,255,255) ;
-  --ifm-color-primary: transparent;
+  --ifm-color-primary: rgb(0,0,0) ;
   --ifm-button-border-color: transparent;
   --ifm-card-background-color: transparent;
   --ifm-hero-background-color: #ffffff;
   --ifm-button-background-color: #e7e7e7;
+
 
   --ifm-background-color-col:transparent;
   --ifm-footer-background-color: #EEEEEE;
@@ -46,7 +47,7 @@
   --ifm-navbar-background-color: rgb(23,23,23) ;
   --ifm-btn-colors: #232323;
   --ifm-link-color : #2fce3c;
-  --ifm-color-primary: transparent ;
+  --ifm-color-primary: rgb(255,255,255) ;
 
   --ifm-hero-background-color: rgb(23,23,23);
 
@@ -61,6 +62,12 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.hero {
+ background-color: transparent;
+}
+
 
 
 .col--4 {
