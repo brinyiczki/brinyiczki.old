@@ -86,6 +86,13 @@ const config = {
           label: 'GitHub',
           position: 'right',
         },
+
+        {
+          label: 'Paypal',
+          href: 'https://paypal.me/brinyiczki',
+          position: 'right',
+        },
+
       ],
     },
 
