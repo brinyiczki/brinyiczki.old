@@ -12,10 +12,10 @@
 
 :root {
   --ifm-color-content-inverse: #000000;
-
+  --ifm-link-color : #2f59ce;
   --ifm-btn-colors: #ededed;
-
-  --ifm-color-primary: #2e8555;
+  --ifm-navbar-background-color: rgb(255,255,255) ;
+  --ifm-color-primary: #ffffff;
   --ifm-background-color-col:transparent;
   --ifm-footer-background-color: #EEEEEE;
   --ifm-color-primary-dark: #29784c;
@@ -31,11 +31,10 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-content-inverse: #ffffff;
-
+  --ifm-navbar-background-color: rgb(23,23,23) ;
   --ifm-btn-colors: #232323;
-
-
-  --ifm-color-primary: rgb(67, 69, 70);
+  --ifm-link-color : #2fce3c;
+  --ifm-color-primary: rgb(23,23,23) ;
   --ifm-background-color-col: #232323;
   --ifm-footer-background-color: #2d2d2d;
   --ifm-color-primary-dark: #21af90;
@@ -109,7 +108,7 @@
 .menu__link:hover,
 .navbar__title:hover,
 .navbar__link:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
   background-color:var(--ifm-btn-colors); 
   transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
 }
