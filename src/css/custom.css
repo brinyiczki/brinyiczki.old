@@ -71,10 +71,12 @@
 }
 
 .cardContainer_fWXF {
-  border: transparent;
+  border: 0px solid transparent;
 }
 
-
+.card {
+  border: 0px solid transparent;
+}
 
 .menu_SIkG {
   background-color: var(--sidebar-color);
