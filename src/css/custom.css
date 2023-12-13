@@ -15,7 +15,7 @@
   --ifm-link-color : #ce962f;
   --ifm-btn-colors: #ededed;
   --ifm-navbar-background-color: rgb(255,255,255) ;
-  --ifm-color-primary: #000000;
+  --ifm-color-primary: transparent;
   --ifm-button-border-color: transparent;
   --ifm-card-background-color: transparent;
   --ifm-hero-background-color: #ffffff;
@@ -46,7 +46,7 @@
   --ifm-navbar-background-color: rgb(23,23,23) ;
   --ifm-btn-colors: #232323;
   --ifm-link-color : #2fce3c;
-  --ifm-color-primary: rgb(255,255,255) ;
+  --ifm-color-primary: transparent ;
 
   --ifm-hero-background-color: rgb(23,23,23);
 
