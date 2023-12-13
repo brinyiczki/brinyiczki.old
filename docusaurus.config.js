@@ -61,7 +61,7 @@ const config = {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/profile3.png',
+        src: 'img/recyclethgsd.png',
       },
       items: [
 
