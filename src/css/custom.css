@@ -145,6 +145,11 @@
   transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
 }
 
+
+.menu__link:not(:hover) {
+  transition: border-radius 0.2s ease, transform 0.2s ease;
+}
+
  
 .navbar__title:not(:hover),
 .navbar__link:not(:hover) {
