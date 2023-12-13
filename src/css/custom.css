@@ -11,7 +11,10 @@
 
 
 :root {
+  --ifm-color-content-inverse: #000000;
+
   --ifm-btn-colors: #ededed;
+
   --ifm-color-primary: #2e8555;
   --ifm-background-color-col:transparent;
   --ifm-footer-background-color: #EEEEEE;
@@ -27,8 +30,12 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-btn-colors: #101010;
-  --ifm-color-primary: rgb(43, 177, 255);
+  --ifm-color-content-inverse: #ffffff;
+
+  --ifm-btn-colors: #232323;
+
+
+  --ifm-color-primary: rgb(67, 69, 70);
   --ifm-background-color-col: #232323;
   --ifm-footer-background-color: #2d2d2d;
   --ifm-color-primary-dark: #21af90;
@@ -54,35 +61,6 @@
 }
 
 
-/* tile height for side tabs */
-.menu__link {
-  line-height: 3;
-  background-color: transparent;
-}
-
-
-
-@keyframes materialRipple {
-  0% {
-      transform: translate(-50%, -50%) scale(1)
-  }
-
-  100% {
-      transform: translate(-50%, -50%) scale(var(--material-scale));
-      opacity: 0
-  }
-}
-
-
-
-.menu__link .animate {
-  width: 2px;
-  height: 2px;
-  position: absolute;
-  border-radius: 50%;
-  animation: materialRipple 0.5s linear
-}
-
 
 
 
@@ -94,11 +72,51 @@
 
 .button--secondary:hover {
   transform: scale(1.1);
-  background-color:var(--ifm-btn-colors); 
-  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
+  width: 2500px;
+  line-height: 3;
+  transition: width 0.5s ease, line-height 0.2s ease, transform 0.2s ease;
+}
 
+
+.button--secondary:not(:hover) {
+  width: 350px;
+  transition: width 0.5s ease, line-height 0.2s ease, transform 0.2s ease;
 }
 
 
 
 
+/* tile height for side tabs */
+.menu__link {
+  line-height: 3;
+  background-color: transparent;
+}
+
+
+
+
+
+.menu__link,
+.navbar__link,
+.navbar__title {
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.menu__link:hover,
+.navbar__title:hover,
+.navbar__link:hover {
+  transform: scale(1.1);
+  background-color:var(--ifm-btn-colors); 
+  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
+}
+
+.menu__link:not(:hover),
+.navbar__title:not(:hover),
+.navbar__link:not(:hover) {
+  background-color: transparent; 
+  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
+}
