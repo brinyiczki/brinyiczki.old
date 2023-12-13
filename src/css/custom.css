@@ -11,7 +11,7 @@
 
 
 :root {
-  --sidebar-color: #dddddd;
+  --sidebar-color: #e4e4e4;
   --ifm-color-content-inverse: #000000;
   --ifm-link-color : #ce962f;
   --ifm-btn-colors: #ededed;
@@ -145,7 +145,7 @@
   transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
 }
 
-.menu__link:not(:hover),
+ 
 .navbar__title:not(:hover),
 .navbar__link:not(:hover) {
   background-color: transparent; 
