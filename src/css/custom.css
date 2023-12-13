@@ -11,6 +11,7 @@
 
 
 :root {
+  --sidebar-color: #dddddd;
   --ifm-color-content-inverse: #000000;
   --ifm-link-color : #ce962f;
   --ifm-btn-colors: #ededed;
@@ -36,6 +37,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --sidebar-color: rgb(20,20,20);
   --ifm-button-border-color: transparent;
   --ifm-card-background-color: transparent;
 
@@ -66,6 +68,11 @@
 
 .hero {
  background-color: transparent;
+}
+
+
+.menu_SIkG {
+  background-color: var(--sidebar-color);
 }
 
 
@@ -112,13 +119,15 @@
 .menu__link {
   line-height: 3;
   background-color: transparent;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--ifm-btn-colors);
 }
 
 
 
-
-
-.menu__link,
 .navbar__link,
 .navbar__title {
   font-weight: bold;
