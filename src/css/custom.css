@@ -79,6 +79,20 @@
 }
 
 
+.cardContainer_fWXF:hover {
+  border: transparent;
+  border: 0px;
+  transform: scale(-1);
+  transition: transform 0.3s ease;
+}
+
+
+.cardContainer_fWXF:not(:hover) {
+  border: transparent;
+  border: 0px;
+  transition: transform 0.3s ease;
+}
+
 
 .menu_SIkG {
   background-color: var(--sidebar-color);
