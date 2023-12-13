@@ -102,27 +102,3 @@
 
 
 
-
-.menu__link,
-.navbar__link,
-.navbar__title {
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  background-color: transparent;
-}
-
-.menu__link:hover,
-.navbar__title:hover,
-.navbar__link:hover {
-  transform: scale(1.1);
-  background-color:var(--ifm-btn-colors); 
-  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
-}
-
-.menu__link:not(:hover),
-.navbar__title:not(:hover),
-.navbar__link:not(:hover) {
-  background-color: transparent; 
-  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
-}
