@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrinyiczki_github_io=self.webpackChunkbrinyiczki_github_io||[]).push([[3641],{3760:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/de/blog/tags/hola","allTagsPath":"/de/blog/tags","count":1,"unlisted":false}')}}]);
