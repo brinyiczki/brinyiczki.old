@@ -53,9 +53,60 @@
   background-color: var(--ifm-background-color-col); 
 }
 
-.menu_link {
+
+/* tile height for side tabs */
+.menu__link {
   line-height: 3;
+  background-color: transparent;
 }
+
+
+
+@keyframes materialRipple {
+  0% {
+      transform: translate(-50%, -50%) scale(1)
+  }
+
+  100% {
+      transform: translate(-50%, -50%) scale(var(--material-scale));
+      opacity: 0
+  }
+}
+
+
+
+.menu__link .animate {
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  border-radius: 50%;
+  animation: materialRipple 0.5s linear
+}
+
+
+
+
+
+
+
+
+
+
+.button--secondary {
+  line-height: 2;
+  border-radius: 10px;
+}
+
+
+.button--secondary:hover {
+  transform: scale(1.1);
+  background-color:var(--ifm-btn-colors); 
+  transition: background-color 0.2s ease, border-radius 0.2s ease, transform 0.2s ease;
+
+}
+
+
+
 
 
 .menu__link,
