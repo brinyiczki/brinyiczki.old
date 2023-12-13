@@ -70,10 +70,17 @@
  background-color: transparent;
 }
 
+.cardContainer_fWXF {
+  border: transparent;
+}
+
+
 
 .menu_SIkG {
   background-color: var(--sidebar-color);
 }
+
+
 
 .pagination-nav__link {
   background-color: var(--ifm-btn-colors);
