@@ -18,8 +18,7 @@
   --ifm-color-primary: #000000;
   --ifm-button-border-color: transparent;
   --ifm-card-background-color: transparent;
-  --ifm-hero-background-color: transparent;
-
+  --ifm-hero-background-color: #ffffff;
   --ifm-button-background-color: #e7e7e7;
 
   --ifm-background-color-col:transparent;
@@ -38,7 +37,6 @@
 [data-theme='dark'] {
   --ifm-button-border-color: transparent;
   --ifm-card-background-color: transparent;
-  --ifm-hero-background-color: transparent;
 
   --ifm-button-background-color: #00beff;
   --ifm-button-background-color: #00beff;
@@ -49,6 +47,10 @@
   --ifm-btn-colors: #232323;
   --ifm-link-color : #2fce3c;
   --ifm-color-primary: rgb(255,255,255) ;
+
+  --ifm-hero-background-color: rgb(23,23,23);
+
+
   --ifm-background-color-col: #232323;
   --ifm-footer-background-color: #2d2d2d;
   --ifm-color-primary-dark: #21af90;
