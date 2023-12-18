@@ -23,6 +23,15 @@ function HomepageHeader() {
             Check out past work by clicking here📦
           </Link>
         </div>
+
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Check out past work by clicking here2📦
+          </Link>
+        </div>
+
       </div>
     </header>
   );
