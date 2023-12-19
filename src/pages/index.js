@@ -12,28 +12,22 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
     <div className="container">
-      <div className="container">
-        <div className="flex flex-row justify-content-between">
-          <Heading as="h1" className="hero__title">
-            {siteConfig.title}
-          </Heading>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-  
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/intro">
-              Check out past work by clicking here📦
-            </Link>
-          </div>
-  
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/intro">
-              Check status
-            </Link>
-          </div>
+      <div style={{ marginBottom: '20px' }}>
+        <Heading as="h1" className="hero__title">
+          {siteConfig.title}
+        </Heading>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/docs/intro">
+            Check out past work by clicking here📦
+          </Link>
+        </div>
+
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/docs/intro">
+            Check status
+          </Link>
         </div>
       </div>
     </div>
