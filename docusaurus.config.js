@@ -65,11 +65,17 @@ const config = {
       },
       items: [
 
-        {
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Docs',
+          },
+
+          {
+            href: 'https://sites.google.com/view/gripify',
+            position: 'left',
+            label: 'Status',
           },
          // {
         //    to: '/blog',
