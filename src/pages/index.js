@@ -11,25 +11,33 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <div className="container">
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            Check out past work by clicking here📦
-          </Link>
+        <div className="flex flex-row justify-content-between">
+          <Heading as="h1" className="hero__title">
+            {siteConfig.title}
+          </Heading>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+  
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/intro">
+              Check out past work by clicking here📦
+            </Link>
+          </div>
+  
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/intro">
+              Check status
+            </Link>
+          </div>
         </div>
-
-        <div className={styles.buttons} style={{ paddingBottom: '20px' }}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            Check status
-          </Link>
-        </div>
-
       </div>
-    </header>
+    </div>
+  </header>
   );
 }
 
