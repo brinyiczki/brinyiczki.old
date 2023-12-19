@@ -17,18 +17,14 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
+          <Link className="button button--secondary button--lg" to="/docs/intro">
             Check out past work by clicking here📦
           </Link>
         </div>
 
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Check out past work by clicking here2📦
+        <div className={styles.buttons} style={{ paddingBottom: '20px' }}>
+          <Link className="button button--secondary button--lg" to="/docs/intro">
+            Check status
           </Link>
         </div>
 
