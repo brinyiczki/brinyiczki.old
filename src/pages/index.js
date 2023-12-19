@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
         </div>
 
-        <div className={styles.buttons}>
+        <div className={styles.buttons} style={{ backgroundColor: 'rgb(255, 101, 101)' }}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
             Check status
           </Link>
@@ -34,6 +34,7 @@ function HomepageHeader() {
   </header>
   );
 }
+
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
