@@ -25,7 +25,7 @@ function HomepageHeader() {
         </div>
 
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro" style={{ backgroundColor: 'rgb(255, 101, 101)' }}>
+          <Link className="button button--secondary button--lg" to="/docs/intro" style={{ backgroundColor: 'rgb(255, 101, 101)' , border: 'none' }}>
             Check status
           </Link>
         </div>
