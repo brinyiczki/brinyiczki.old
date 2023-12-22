@@ -95,7 +95,7 @@ const config = {
 
         {
           label: 'Paypal',
-          href: 'https://paypal.me/brinyiczki',
+          href: 'https://paypal.me/gripRBLX',
           position: 'right',
         },
 
