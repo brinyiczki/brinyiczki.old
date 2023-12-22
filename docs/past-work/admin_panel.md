@@ -7,7 +7,6 @@ sidebar_position: 1
 Uses `GUTIL` `Open Sourced` module by me to create various `visual effects`. Allows you
 to add more users with `UserID` to manage the panel itself.
 
-## `This product is for sale`
  
 
 <details>
