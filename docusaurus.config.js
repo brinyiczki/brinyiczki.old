@@ -88,8 +88,8 @@ const config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/brinyiczki',
-          label: 'GitHub',
+          href: 'https://www.guilded.gg/u/grip',
+          label: 'Guilded',
           position: 'right',
         },
 
